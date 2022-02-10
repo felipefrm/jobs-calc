@@ -82,10 +82,10 @@
         <div class="cards">
 
 
-          <% jobs.forEach((job) => { %>
+          <% jobs.forEach((job, index) => { %>
 
             <div class="card <%= job.status %> " data-id="<%= job.id %>">
-              <div class="id column"><%= job.id %> </div>
+              <div class="id column"><%= ++index %> </div>
               <div class="name column">
                 <%= job.name %> 
               </div>
