@@ -6,7 +6,9 @@ server.use(express.urlencoded({extended: true}))
 const routes = require("./routes")
 server.use(routes)
 
+const path = require("path")
 server.set("view engine", "ejs")
+server.set("views", path.join(__dirname, 'views'))
 server.use(express.static("public"))
 
 
