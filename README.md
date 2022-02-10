@@ -56,4 +56,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.
 
 ---
 
-<p align:center>Feito por <a href="https://www.linkedin.com/in/felipefrmelo/">Felipe Melo<a> :wave:</p>
+<p align=center>Feito por <a href="https://www.linkedin.com/in/felipefrmelo/">Felipe Melo<a> :wave:</p>
