@@ -42,7 +42,8 @@
 
             <div class="input-wrapper">
               <label for="name">Nome do Job</label>
-              <input 
+              <input
+                required 
                 type="text" 
                 id="name" 
                 name="name"
@@ -53,10 +54,12 @@
             <div class="input-group">
               <div class="input-wrapper">
                 <label for="daily-hours">Quantas horas <br/>
-                  por dia vai dedicar ao job?</label>
-                <input 
+                  por dia vai dedicar ao Job?</label>
+                <input
+                  required 
                   type="number"
-                  step="0.1" 
+                  step="0.1"
+                  max="24" 
                   id="daily-hours" 
                   name="daily-hours"
                   value="<%= job["daily-hours"] %>"/>
@@ -65,7 +68,8 @@
               <div class="input-wrapper">
                 <label for="total-hours">Estimativa de <br/>
                   horas para esse Job?</label>
-                <input 
+                <input
+                  required
                   type="number"
                   id="total-hours" 
                   name="total-hours"
@@ -106,7 +110,7 @@
       <div class="modal">
         <img src="/images/trash-48.svg" alt="Excluir Job" title="Excluir Job" />
         <h3>Excluir Job</h3>
-        <p>Quer mesmo excluir esse job? <br/>
+        <p>Quer mesmo excluir esse Job? <br/>
         Ele será apagado para sempre.  
         </p>
         <footer>
